@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 15px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin: 10px;
+  }
+  
+  .loading-indicator {
+    padding: 20px;
+    font-size: 18px;
+    display: none;
+  }
+  

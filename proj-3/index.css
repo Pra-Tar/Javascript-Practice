@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: azure;
+    margin-top: 300px;
+    font-size: 28px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+}

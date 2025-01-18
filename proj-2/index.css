@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: #dbd8e3;
+}
+li{
+    margin: 6px;
+    background-color: #5c5470;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    border-bottom: 1px solid #ccc;
+}
+ul{
+    list-style-type: none;
+    font-size: 30px;
+    width:60%;
+}
+#list-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+#list-item button {
+    margin-left: auto;
+}
